@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpConstruction Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <header class="position-relative">
+        <div class="container">
+            <!-- // Navbar // -->
+            <nav class="navbar navbar-expand-lg py-4 navbar-dark">
+                <!-- // Brand & Logo // -->
+                <a class="navbar-brand fw-bolder fs-4" href="#">UpConstruction<span class="text-warning">.</span></a>
+                <!-- // Menu Button // -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <!-- // Navbar-nav // -->
+                    <ul class="navbar-nav ms-auto d-flex gap-4 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link underline-hover active fw-semibold" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <!-- // Dropdown // -->
+                        <li class="nav-item dropdown position-relative">
+                            <a class="nav-link underline-hover fw-semibold" href="#">
+                                <span class="dropdown-angle-down pe-3">DROPDOWN</span>
+                            </a>
+                            <ul class="dropdown-menu position-absolute show rounded-0 border-0 dropdown-boxshadow px-1">
+                                <li>
+                                    <a class="dropdown-item py-2" href="#">Dropdown 1</a>
+                                </li>
+                                <li class="position-relative deep-dropdown-hover">
+                                    <a class="dropdown-item py-2" href="#">Deep Dropdown <i
+                                            class="fa-solid fa-angle-right ps-5"></i>
+                                    </a>
+                                    <!-- // Deep dropdown // -->
+                                    <ul
+                                        class="dropdown-menu deep-dropdown position-absolute show rounded-0 border-0 dropdown-boxshadow pe-5 px-1">
+                                        <li>
+                                            <a href="#" class="dropdown-item py-2">Deep Dropdown 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item py-2">Deep Dropdown 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item py-2">Deep Dropdown 3</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item py-2">Deep Dropdown 4</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item py-2">Deep Dropdown 5</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item py-2" href="#">Dropdown 2</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item py-2" href="#">Dropdown 3</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item py-2" href="#">Dropdown 4</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link underline-hover fw-semibold" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link underline-hover fw-semibold" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link underline-hover fw-semibold" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link underline-hover fw-semibold" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link underline-hover fw-semibold" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <!-- // Hero Banner // -->
+        <section class="hero w-100 h-100">
+            <div class="hero-info position-absolute top-0 d-flex align-items-center z-n1">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-xl-6">
+                            <!-- // info // -->
+                            <h1 class="text-center text-white fw-bolder fs-1">Welcome to <br>UpConstruction</h1>
+                            <div class="line my-4"></div>
+                            <p class="text-white text-center fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Sint est perspiciatis quam praesentium, numquam deleniti cum ut obcaecati corporis
+                                illum!
+                            </p>
+                            <!-- // Button // -->
+                            <div class="text-center py-2">
+                                <button type="button"
+                                    class="btn btn-outline-warning text-white py-2 px-5 rounded-5 fw-semibold fs-5">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- // Carousel // -->
+            <div class="position-absolute top-0 z-n2 w-100 h-100">
+                <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <span class="w-100 h-100 bg-black opacity-70 position-absolute"></span>
+                            <img src="Image/hero-carousel-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <span class="w-100 h-100 bg-black opacity-75 position-absolute"></span>
+                            <img src="Image/hero-carousel-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <span class="w-100 h-100 bg-black opacity-70 position-absolute"></span>
+                            <img src="Image/hero-carousel-3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <span class="w-100 h-100 bg-black opacity-70 position-absolute"></span>
+                            <img src="Image/hero-carousel-4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <span class="w-100 h-100 bg-black opacity-70 position-absolute"></span>
+                            <img src="Image/hero-carousel-5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev justify-content-start ps-4" type="button"
+                        data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon-fa" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next justify-content-end pe-4" type="button"
+                        data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon-fa" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+
+</html>

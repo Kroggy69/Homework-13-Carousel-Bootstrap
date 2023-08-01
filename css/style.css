@@ -1,0 +1,119 @@
+
+.carousel,
+.hero-info {
+    height: 100vh !important;
+    overflow: hidden;
+}
+
+.navbar-nav .nav-item .nav-link,
+.dropdown-item {
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.navbar-nav .underline-hover,
+.dropdown-angle-down {
+    position: relative;
+    border-bottom: 5px solid transparent;
+}
+
+.navbar-nav .underline-hover::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: .1rem;
+    right: 100%;
+    bottom: 0;
+    background-color: #feb900;
+    transition: .3s;
+}
+
+.navbar-nav .underline-hover:hover::after,
+.navbar-nav .underline-hover.active::after {
+    right: 0;
+}
+
+.dropdown-angle-down::after {
+    position: absolute;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f107";
+    right: 0;
+    top: 1px;
+}
+
+.dropdown .dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    border-top: 5px solid transparent;
+    transform: translateY(40px);
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+    transition: .3s;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    color: #feb900;
+}
+
+.dropdown-boxshadow {
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+.deep-dropdown {
+    left: 80%;
+    top: 0;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: .4s;
+}
+
+.deep-dropdown-hover:hover .deep-dropdown {
+    opacity: 1 !important;
+    visibility: visible !important;
+    left: 102%;
+}
+
+.hero-info {
+    width: 60%;
+    height: 100%;
+    left: 20%;
+}
+
+.carousel img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.line {
+    width: 90px;
+    height: .3rem;
+    background-color: #feb900;
+    margin: auto;
+}
+
+.carousel-control-next-icon-fa::after,
+.carousel-control-prev-icon-fa::after {
+    font-family: 'Font Awesome 6 free';
+    font-weight: 900;
+    padding: 1.1rem 1.4rem;
+    background-color: rgba(128, 128, 128, 0.493);
+    border-radius: 100%;
+    font-size: 1.4rem;
+}
+.carousel-control-next-icon-fa::after {
+    content: '\f054';
+}
+
+.carousel-control-prev-icon-fa::after {
+    content: '\f104';
+}
